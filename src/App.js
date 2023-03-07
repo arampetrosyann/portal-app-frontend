@@ -1,6 +1,5 @@
 import React, { useEffect, useMemo } from "react"
 import { useDispatch, useSelector } from "react-redux"
-import { useHistory } from "react-router-dom"
 import { LinearProgress } from "@material-ui/core"
 import { Auth, Main, Snackbar, CircularLoading } from "@Components"
 import { selectLoading } from "@Redux/loading/selectors"
