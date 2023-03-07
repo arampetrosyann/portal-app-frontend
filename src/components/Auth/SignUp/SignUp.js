@@ -50,6 +50,7 @@ const SignUp = () => {
 
   const formik = useFormik({
     initialValues: {
+      fullName: "",
       email: "",
       password: "",
       passwordConfirmation: "",
