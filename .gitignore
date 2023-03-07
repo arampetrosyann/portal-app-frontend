@@ -1,0 +1,14 @@
+node_modules
+dist
+build
+
+.history
+.vscode
+
+/coverage
+
+.DS_Store
+.env
+
+yarn-debug.log*
+yarn-error.log*
